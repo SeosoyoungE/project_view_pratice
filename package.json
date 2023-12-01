@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://bam-j.github.io/pages/",
+  "homepage": "https://seosoyounge.github.io/project_view_pratice/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
