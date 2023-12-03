@@ -24,9 +24,9 @@ body {
   background-position: 30% 30%;
 }
 .main-items {
-  width: 80%;
+  width: 60%;
   height: 10rem;
-  margin: 5rem auto;
+  margin: 2rem auto;
   text-align: center;
   vertical-align: middle;
 }
@@ -34,14 +34,14 @@ body {
   display: inline-block;
 }
 .main-item .main-item__box {
-  width: 14rem;
-  margin: 1rem 1rem 0.5rem 1rem;
+  width: 11rem;
+  margin: 0.5rem 0.5rem 0 0.5rem;
   height: 6rem;
   display: block;
-  background: linear-gradient(to top, rgba(27, 134, 255, 0.5), transparent);
-  border: 1px #aaa solid;
+  background: #f4f4f4;
+  border-radius: 10%;
 }
 .main-item a {
-  font-weight: bold;
   color: #111;
+  font-size: 0.8rem;
 }
