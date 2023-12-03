@@ -1,5 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 function App() {
@@ -9,7 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="main-banner">
-          <span></span>
+          <span>{count}</span>
           <span></span>
         </div>
         <div className="main-items">
