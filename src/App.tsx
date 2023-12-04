@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="main-banner">
-          <span>{count}</span>
-          <span></span>
+          <span className="left-arrow"></span>
+          <span className="right-arrow"></span>
         </div>
         <div className="main-items">
           <div className="main-item">
@@ -47,7 +47,7 @@ function App() {
           <div className="main-item">
             <div className="main-item__box"></div>
             <a>12월 베네핏</a>
-            </div>
+          </div>
           <div className="main-item">
             <div className="main-item__box"></div>
             <a>스타일컬렉터 모집</a>

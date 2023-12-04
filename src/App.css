@@ -17,14 +17,36 @@ body {
 .main-banner {
   margin-top: 5rem;
   width: 100%;
-  background: url("https://gongu.copyright.or.kr/gongu/wrt/cmmn/wrtFileImageView.do?wrtSn=11288959&filePath=L2Rpc2sxL25ld2RhdGEvMjAxNS8wMi9DTFM2OS9OVVJJXzAwMV8wNDQ1X251cmltZWRpYV8yMDE1MTIwMw==&thumbAt=Y&thumbSe=b_tbumb&wrtTy=10006")
-    no-repeat;
+  background: #e4e4e4;
   height: 50vh;
   background-size: cover;
   background-position: 30% 30%;
+  position: relative;
+}
+.main-banner .left-arrow {
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgZmlsbD0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTUwIDYwIDMwIDQwbDIwLTIwIi8+PC9zdmc+)
+    no-repeat center;
+  transform: translateY(-50%);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 64px;
+  width: 64px;
+}
+.main-banner .right-arrow {
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgZmlsbD0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0ibTMwIDIwIDIwIDIwLTIwIDIwIi8+PC9zdmc+)
+    no-repeat center;
+  transform: translateY(-50%);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 64px;
+  width: 64px;
 }
 .main-items {
   width: 60%;
+  min-width: 980px;
+  max-width: 1150px;
   height: 10rem;
   margin: 2rem auto;
   text-align: center;
@@ -34,11 +56,11 @@ body {
   display: inline-block;
 }
 .main-item .main-item__box {
-  width: 11rem;
-  margin: 0.5rem 0.5rem 0 0.5rem;
+  width: 12rem;
+  margin: 1rem 0.5rem 0 0.5rem;
   height: 6rem;
   display: block;
-  background: #f4f4f4;
+  background: #e4e4e4;
   border-radius: 10%;
 }
 .main-item a {
