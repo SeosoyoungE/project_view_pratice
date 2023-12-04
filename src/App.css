@@ -44,9 +44,7 @@ body {
   width: 64px;
 }
 .main-items {
-  width: 60%;
-  min-width: 980px;
-  max-width: 1150px;
+  width: 1150px;
   height: 10rem;
   margin: 2rem auto;
   text-align: center;
