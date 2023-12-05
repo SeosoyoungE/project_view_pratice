@@ -2,12 +2,14 @@ import { useState } from "react";
 import "./App.css";
 import Cloth from "./components/Cloth";
 import SubTitle from "./components/SubTitle";
+import Header from "./components/Header";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
+      <Header />
       <div className="container">
         <div className="main-banner">
           <span className="left-arrow"></span>

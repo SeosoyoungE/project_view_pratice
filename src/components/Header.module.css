@@ -1,0 +1,49 @@
+header {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 0 10rem;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+}
+
+header div {
+  display: inline-block;
+}
+
+header a,
+header i {
+  color: inherit;
+  cursor: pointer;
+}
+.header__logo {
+  padding: 1rem;
+}
+.header__logo a {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.header__nav__item {
+  padding: 1rem;
+}
+.header__nav__item_bold {
+  font-weight: bold;
+}
+
+.header__nav__item a:active,
+.header__nav__item a:hover {
+  border-bottom: 2px solid rgba(34, 34, 34, 0.5);
+  padding-bottom: 0.1rem;
+  color: rgba(34, 34, 34, 0.5);
+}
+header i:active,
+header i:hover {
+  color: rgba(34, 34, 34, 0.5);
+}
