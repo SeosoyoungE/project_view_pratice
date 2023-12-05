@@ -1,0 +1,22 @@
+.product {
+  display: inline-block;
+}
+.product__image {
+  width: 12rem;
+  margin: 1rem 0.5rem 0 0.5rem;
+  height: 18rem;
+  display: block;
+  background: #e4e4e4;
+  border-radius: 5%;
+}
+.product a {
+  display: block;
+  width: 12rem;
+}
+.product__maker {
+  font-size: 10px;
+  font-weight: bold;
+}
+.product__detail {
+  font-size: 10px;
+}
