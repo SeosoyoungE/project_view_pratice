@@ -1,22 +1,31 @@
 .product {
   display: inline-block;
+  margin: 1rem 0.5rem 0 0.5rem;
 }
 .product__image {
   width: 12rem;
-  margin: 1rem 0.5rem 0 0.5rem;
-  height: 18rem;
+  height: 12rem;
   display: block;
   background: #e4e4e4;
   border-radius: 5%;
 }
-.product a {
+.product__info a {
   display: block;
   width: 12rem;
 }
 .product__maker {
-  font-size: 10px;
+  font-size: 0.7rem;
   font-weight: bold;
 }
 .product__detail {
-  font-size: 10px;
+  font-size: 0.7rem;
+}
+.product__price {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.product__special {
+  font-size: 0.6rem;
+  color: rgba(34, 34, 34, 0.5);
 }

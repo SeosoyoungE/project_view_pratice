@@ -51,10 +51,11 @@ body {
 }
 .main-item {
   display: inline-block;
+  margin: 1rem 0.5rem 0 0.5rem;
 }
 .main-item .main-item__box {
   width: 12rem;
-  margin: 1rem 0.5rem 0 0.5rem;
+
   height: 6rem;
   display: block;
   background: #e4e4e4;
@@ -73,5 +74,4 @@ body {
 }
 .cloths a {
   text-align: left;
-  margin: 0 0.5rem;
 }

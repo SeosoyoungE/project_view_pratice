@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Cloth from "./components/Cloth";
+import SubTitle from "./components/SubTitle";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -54,7 +55,9 @@ function App() {
             <a>스타일컬렉터 모집</a>
           </div>
         </div>
+
         <div className="cloths">
+          <SubTitle eng="Just Dropped" kor="발매상품" />
           <Cloth />
           <Cloth />
           <Cloth />

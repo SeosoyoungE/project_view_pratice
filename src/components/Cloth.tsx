@@ -12,10 +12,12 @@ function Cloth() {
   return (
     <div className={styles.product}>
       <div className={styles.product__image}></div>
-      <a className={styles.product__maker}>{product.maker}</a>
-      <a className={styles.product__detail}>{product.detail}</a>
-      <a className={styles.product__price}>{product.price}</a>
-      <a className={styles.product__special}>{product.special}</a>
+      <div className={styles.product__info}>
+        <a className={styles.product__maker}>{product.maker}</a>
+        <a className={styles.product__detail}>{product.detail}</a>
+        <a className={styles.product__price}>{product.price}</a>
+        <a className={styles.product__special}>{product.special}</a>
+      </div>
     </div>
   );
 }
