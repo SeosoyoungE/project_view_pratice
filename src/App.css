@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-
+/* 기본설정 */
 * {
   font-family: "Orbit-Regular";
 }
@@ -14,6 +14,8 @@ body {
   box-sizing: border-box;
   margin: 0;
 }
+
+/* 배너, items 모듈화 해야함 */
 .main-banner {
   margin-top: 5rem;
   width: 100%;
@@ -23,6 +25,7 @@ body {
   background-position: 30% 30%;
   position: relative;
 }
+/* 화살표 적용배너/안적용배너 나누기 */
 .main-banner .left-arrow {
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MCIgaGVpZ2h0PSI4MCIgZmlsbD0ibm9uZSI+PHBhdGggc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTUwIDYwIDMwIDQwbDIwLTIwIi8+PC9zdmc+)
     no-repeat center;
@@ -55,7 +58,6 @@ body {
 }
 .main-item .main-item__box {
   width: 12rem;
-
   height: 6rem;
   display: block;
   background: #e4e4e4;
@@ -66,6 +68,7 @@ body {
   font-size: 0.8rem;
 }
 
+/* text 정렬 */
 .cloths {
   padding: 2rem 0;
   margin: 5rem auto;
