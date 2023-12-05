@@ -1,1 +1,1 @@
-https://seosoyounge.github.io/project_view_pratice/
+https://seosoyounge.github.io/tomake_project_view/
