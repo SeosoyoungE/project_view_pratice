@@ -68,6 +68,7 @@ function App() {
       <div className="container">
         <div className="product__MostPopular">
           <SubTitle eng="Most Popular" kor="인기 상품" />
+          <Cloths />
         </div>
       </div>
     </div>
