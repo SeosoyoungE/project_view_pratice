@@ -1,10 +1,13 @@
 import styles from "./SubTitle.module.css";
-
-function SubTitle(props) {
+type Props={
+  eng:string,
+  kor?:string
+}
+function SubTitle(props:Props) {
   return (
     <div className={styles.title}>
       <div className={styles.eng}>{props.eng}</div>
-      <div className={styles.kor}>{props.kor}</div>
+      {typeof props.kor=='string'?<div className={styles.kor}>{props.kor}</div>:null}
     </div>
   );
 }
