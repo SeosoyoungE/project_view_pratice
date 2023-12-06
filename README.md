@@ -9,3 +9,4 @@ https://seosoyounge.github.io/tomake_project_view/
 - 배너 넘기기 가능하게(이건 좀더 배워야함)
 - item,items 모듈화(items:5item)
 - 배너 모듈화 (화살표 유무로 나누기)
+- 미디어쿼리(반응형) 추가하기 / 후순위
