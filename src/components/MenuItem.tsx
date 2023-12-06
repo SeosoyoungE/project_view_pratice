@@ -1,5 +1,8 @@
 import styles from "./MenuItem.module.css";
-function MenuItem(props) {
+type Props={
+  name:string
+}
+function MenuItem(props:Props) {
   return (
     <div className={styles.main_item}>
       <div className={styles.main_item__box}></div>

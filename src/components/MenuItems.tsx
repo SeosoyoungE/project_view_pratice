@@ -1,5 +1,12 @@
 import MenuItem from "./MenuItem";
-function MenuItems({ name1, name2, name3, name4, name5 }) {
+type Names={
+  name1:string,
+  name2:string,
+  name3:string,
+  name4:string,
+  name5:string,
+}
+function MenuItems({ name1, name2, name3, name4, name5 }:Names) {
   return (
     <>
       <MenuItem name={name1} />
