@@ -40,3 +40,6 @@ body {
 .product__MostPopular {
   padding: 3rem 0;
 }
+.product__MostPopular a{
+  text-align: left;
+}
