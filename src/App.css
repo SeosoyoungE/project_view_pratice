@@ -15,7 +15,7 @@ body {
   margin: 0;
 }
 .container {
-  width: 1150px;
+  max-width: 1150px;
   text-align: center;
   vertical-align: middle;
   margin: 0 auto;
@@ -40,6 +40,6 @@ body {
 .product__MostPopular {
   padding: 3rem 0;
 }
-.product__MostPopular a{
+.product__MostPopular a {
   text-align: left;
 }
