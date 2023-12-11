@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import MainPageHeader from "./MainPageHeader";
 //이름다수정
 function Header() {
   return (
@@ -27,6 +28,7 @@ function Header() {
           </div>
         </div>
       </div>
+      <MainPageHeader />
     </header>
   );
 }
