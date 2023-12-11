@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import MainBanner from "./components/MainBanner";
 import MenuItems from "./components/MenuItems";
 import Banner from "./components/Banner";
+import Button from "./components/Button";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -36,6 +37,7 @@ function App() {
           <SubTitle eng="Just Dropped" kor="발매상품" />
           <Cloths />
           <Cloths />
+          <Button text="더보기" />
         </div>
 
         <div className="product__TOPBrand">
