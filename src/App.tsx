@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Cloths from "./components/Cloths";
 import SubTitle from "./components/SubTitle";
@@ -9,12 +9,13 @@ import Banner from "./components/Banner";
 import Button from "./components/Button";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <Header />
       <MainBanner />
+      <Routes>
+        <Route path="/main" element={<h1>test</h1>} />
+      </Routes>
       <div className="container">
         <div className="main-items">
           <MenuItems
