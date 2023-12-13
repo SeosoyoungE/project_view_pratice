@@ -73,7 +73,10 @@ function App() {
           <SubTitle eng="Most Popular" kor="인기 상품" />
           <Cloths />
         </div>
-        <Styles />
+        <div className="style__required">
+          <SubTitle eng="Most Popular" kor="인기 상품" />
+          <Styles />
+        </div>
       </div>
     </div>
   );
