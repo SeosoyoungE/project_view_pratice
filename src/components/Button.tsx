@@ -1,6 +1,9 @@
 import styles from "./Button.module.css";
 
-function Button(props) {
+type Props = {
+  text: string;
+};
+function Button(props: Props) {
   return (
     <>
       <button className={styles.btn}>{props.text}</button>

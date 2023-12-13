@@ -1,31 +1,13 @@
 @font-face {
-  font-family: "Orbit-Regular";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/Orbit-Regular.woff2")
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
     format("woff2");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 /* 기본설정 */
 * {
-  font-family:
-    Pretendard Variable,
-    Pretendard,
-    -apple-system,
-    BlinkMacSystemFont,
-    system-ui,
-    Segoe UI,
-    Roboto,
-    Ubuntu,
-    Cantarell,
-    Noto Sans,
-    sans-serif,
-    Helvetica Neue,
-    Apple SD Gothic Neo,
-    Noto Sans KR,
-    Malgun Gothic,
-    Apple Color Emoji,
-    Segoe UI Emoji,
-    Segoe UI Symbol;
+  font-family: "SUITE-Regular", sans-serif;
 }
 body {
   height: 100%;
@@ -61,4 +43,8 @@ body {
 }
 .product__MostPopular a {
   text-align: left;
+}
+.style__required {
+  padding: 3rem 0;
+  border-top: rgba(34, 34, 34, 0.1) 1px solid;
 }

@@ -72,9 +72,10 @@ function App() {
         <div className="product__MostPopular">
           <SubTitle eng="Most Popular" kor="인기 상품" />
           <Cloths />
+          <Button text="더보기" />
         </div>
         <div className="style__required">
-          <SubTitle eng="Most Popular" kor="인기 상품" />
+          <SubTitle eng="설레는 연말 코디 필수템" kor="#윈터템챌린지" />
           <Styles />
         </div>
       </div>

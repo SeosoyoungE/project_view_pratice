@@ -1,5 +1,6 @@
 import HeaderItem from "./HeaderItem";
 import styles from "./MainPageHeader.module.css";
+import { useState } from "react";
 
 function MainPageHeader() {
   return (
