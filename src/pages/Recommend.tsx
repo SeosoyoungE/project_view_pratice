@@ -1,4 +1,4 @@
 function Recommend() {
     return()
 }
-export default 
+export default Recommend;

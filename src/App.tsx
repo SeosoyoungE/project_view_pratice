@@ -7,15 +7,16 @@ import MainBanner from "./components/MainBanner";
 import MenuItems from "./components/MenuItems";
 import Banner from "./components/Banner";
 import Button from "./components/Button";
+import Styles from "./components/Styles";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <MainBanner />
+      <Header /> {/*chlidren 객체로 아래헤더 바꿀수있도록 하기 */}
       <Routes>
         <Route path="/main" element={<h1>test</h1>} />
       </Routes>
+      <MainBanner />
       <div className="container">
         <div className="main-items">
           <MenuItems
@@ -72,6 +73,7 @@ function App() {
           <SubTitle eng="Most Popular" kor="인기 상품" />
           <Cloths />
         </div>
+        <Styles />
       </div>
     </div>
   );
