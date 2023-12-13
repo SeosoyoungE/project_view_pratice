@@ -8,15 +8,9 @@ type Props = {
 };
 
 function HeaderItem(props: Props) {
-  const [page, setPage] = useState(false);
-  function onClickHandler() {
-    setPage(true);
-  }
   return (
     <div className={style.header_item}>
-      <Link to={props.to} onClick={onClickHandler}>
-        {props.itemName}
-      </Link>
+      <Link to={props.to}>{props.itemName}</Link>
     </div>
   );
 }

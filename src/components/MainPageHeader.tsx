@@ -3,6 +3,10 @@ import styles from "./MainPageHeader.module.css";
 import { useState } from "react";
 
 function MainPageHeader() {
+  const [page, setPage] = useState(false);
+  function onClickHandler() {
+    setPage(true);
+  }
   return (
     <div className={styles.header_items}>
       <HeaderItem to="/recommand" itemName="추천" />
