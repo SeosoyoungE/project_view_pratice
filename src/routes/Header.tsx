@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import MainPageHeader from "./MainPageHeader";
+import MainPageHeader from "../components/MainPageHeader";
 //이름다수정
 function Header() {
   return (
