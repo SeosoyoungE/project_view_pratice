@@ -9,6 +9,7 @@ function App() {
       <Header /> {/*chlidren 객체로 아래헤더 바꿀수있도록 하기 */}
       <Routes>
         <Route path="/" element={<Recommend />} />
+        <Route path="/lank" element={<h1>lank</h1>} />
       </Routes>
       <Footer />
     </div>
