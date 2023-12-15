@@ -27,13 +27,13 @@ function Footer() {
               검수기준
             </Link>
             <Link className={styles.item} to="/">
-              검수기준
+              이용정책
             </Link>
             <Link className={styles.item} to="/">
-              검수기준
+              패널티 정책
             </Link>
             <Link className={styles.item} to="/">
-              검수기준
+              가이드라인
             </Link>
           </div>
           <div className={styles.footer__items}>
@@ -42,13 +42,13 @@ function Footer() {
               검수기준
             </Link>
             <Link className={styles.item} to="/">
-              검수기준
+              이용정책
             </Link>
             <Link className={styles.item} to="/">
-              검수기준
+              패널티 정책
             </Link>
             <Link className={styles.item} to="/">
-              검수기준
+              가이드라인
             </Link>
           </div>
         </div>
