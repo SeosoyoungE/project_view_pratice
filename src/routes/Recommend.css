@@ -1,0 +1,26 @@
+.main-items {
+  padding: 2rem 0 3rem 0;
+}
+
+.product__release {
+  padding: 3rem 0;
+  border-top: rgba(34, 34, 34, 0.1) 1px solid;
+}
+.product__release a {
+  text-align: left;
+}
+
+.product__TOPBrand {
+  padding: 3rem 0;
+  border-top: rgba(34, 34, 34, 0.1) 1px solid;
+}
+.product__MostPopular {
+  padding: 3rem 0;
+}
+.product__MostPopular a {
+  text-align: left;
+}
+.style__required {
+  padding: 3rem 0;
+  border-top: rgba(34, 34, 34, 0.1) 1px solid;
+}

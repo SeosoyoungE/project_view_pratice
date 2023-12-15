@@ -1,4 +1,5 @@
-import "../App.css";
+import "./Recommend.css";
+import "./shared.css";
 import Cloths from "../components/Cloths";
 import SubTitle from "../components/SubTitle";
 import MainBanner from "../components/MainBanner";
