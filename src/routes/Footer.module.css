@@ -68,3 +68,8 @@ b {
     border-right: rgba(34, 34, 34, 0.2) 1px solid;
   }
 }
+@media (max-width: 425px) {
+  .footer__info {
+    border-left: none;
+  }
+}
