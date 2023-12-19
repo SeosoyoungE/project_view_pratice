@@ -40,16 +40,22 @@ header i {
   justify-content: space-between;
   align-items: center;
 }
-.header__nav__item_bold {
-  font-weight: bold;
+.header__nav__item a {
+  text-decoration: none;
 }
 .header__nav__item a:active,
 .header__nav__item a:hover {
-  border-bottom: 2px solid rgba(34, 34, 34, 0.5);
-  padding-bottom: 0.1rem;
   color: rgba(34, 34, 34, 0.5);
 }
 header i:active,
 header i:hover {
   color: rgba(34, 34, 34, 0.5);
+}
+[aria-current="page"] {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  padding-bottom: 0.4rem;
+}
+.header__nav__item [aria-current="page"] {
+  border-bottom: none;
 }

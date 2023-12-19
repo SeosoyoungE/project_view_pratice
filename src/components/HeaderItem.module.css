@@ -6,8 +6,3 @@
 .header_item a {
   text-decoration: none;
 }
-[aria-current="page"] {
-  font-weight: bold;
-  border-bottom: 2px solid black;
-  padding-bottom: 0.4rem;
-}

@@ -1,5 +1,6 @@
 import styles from "./Header.module.css";
 import MainPageHeader from "../components/MainPageHeader";
+import { NavLink } from "react-router-dom";
 //이름다수정
 function Header() {
   return (
@@ -15,13 +16,13 @@ function Header() {
               styles.header__nav__item_bold,
             ].join(" ")}
           >
-            <a>HOME</a>
+            <NavLink to="/">HOME</NavLink>
           </div>
           <div className={styles.header__nav__item}>
-            <a>STYLE</a>
+            <NavLink to="/style">STYLE</NavLink>
           </div>
           <div className={styles.header__nav__item}>
-            <a>SHOP</a>
+            <NavLink to="/shop">SHOP</NavLink>
           </div>
           <div className={styles.header__nav__item}>
             <i className="fa-solid fa-magnifying-glass"></i>
