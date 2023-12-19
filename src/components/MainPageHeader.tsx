@@ -1,10 +1,7 @@
 import HeaderItem from "./HeaderItem";
 import styles from "./MainPageHeader.module.css";
-import { useState } from "react";
 
 function MainPageHeader() {
-  const [page, setPage] = useState("");
-
   return (
     <div className={styles.header_items}>
       <HeaderItem to="/" itemName="추천" />

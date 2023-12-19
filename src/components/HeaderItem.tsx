@@ -1,6 +1,5 @@
 import style from "./HeaderItem.module.css";
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
 
 type Props = {
   to: string;
