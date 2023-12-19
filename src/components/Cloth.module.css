@@ -8,10 +8,12 @@
   display: block;
   background: #e4e4e4;
   border-radius: 5%;
+  position: relative;
 }
 .product__info a {
   display: block;
   width: 12rem;
+  text-align: left;
 }
 .product__maker {
   font-size: 0.7rem;
