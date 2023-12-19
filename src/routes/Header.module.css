@@ -43,8 +43,6 @@ header i {
 .header__nav__item_bold {
   font-weight: bold;
 }
-.header__nav__item {
-}
 .header__nav__item a:active,
 .header__nav__item a:hover {
   border-bottom: 2px solid rgba(34, 34, 34, 0.5);
