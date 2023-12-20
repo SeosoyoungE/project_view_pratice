@@ -3,6 +3,7 @@ import "./Rank.css";
 import Ranking from "../components/Ranking";
 import SubTitle from "../components/SubTitle";
 import Button from "../components/Button";
+import Rank100 from "../components/Rank100";
 
 export default function Rank() {
   return (
@@ -17,6 +18,9 @@ export default function Rank() {
           <SubTitle eng="여성 신발 인기 순위" kor="" />
           <Ranking />
           <Button text="더보기" />
+        </div>
+        <div>
+          <Rank100 />
         </div>
       </div>
     </>

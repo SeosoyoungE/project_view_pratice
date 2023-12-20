@@ -9,6 +9,9 @@
   left: 0;
   top: 0;
 }
+.product__ranking:first-of-type {
+  background-color: rgb(255, 185, 185);
+}
 .product__ranking a {
   color: white;
   font-weight: bold;
