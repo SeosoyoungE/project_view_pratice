@@ -9,15 +9,17 @@
 }
 .category__name {
   padding: 1rem 0;
-  border-bottom: rgba(34, 34, 34, 0.2) 1px solid;
-
   align-items: center;
   justify-content: space-between;
   display: flex;
+
+  background: rgba(34, 34, 34, 0);
+  cursor: pointer;
 }
 .category__name a {
   font-weight: bold;
   color: #aaa;
+  z-index: -1;
 }
 .category__names {
   display: flex;
@@ -30,7 +32,6 @@
   font-size: 0.9rem;
   font-weight: bold;
   color: #555;
-  cursor: pointer;
 }
 .open {
   width: 100%;
