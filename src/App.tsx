@@ -1,14 +1,18 @@
 import { Route, Routes } from "react-router-dom";
-import HomeHeader from "./routes/HomeHeader";
+import HeaderMain from "./routes/HeaderMain";
 import Footer from "./routes/Foot";
 import Recommend from "./routes/Recommend";
 import Rank from "./routes/Rank";
+import MainPageHeader from "./components/MainPageHeader";
 import "./index.css";
 
 function App() {
   return (
     <div className="App">
-      <HomeHeader /> {/*chlidren 객체로 아래헤더 바꿀수있도록 하기 */}
+      <header>
+        <HeaderMain /> {/*chlidren 객체로 아래헤더 바꿀수있도록 하기 */}
+        <MainPageHeader />
+      </header>
       <Routes>
         <Route path="/" element={<Recommend />} />
         <Route path="/lank" element={<Rank />} />
