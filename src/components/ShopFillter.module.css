@@ -1,0 +1,41 @@
+.fillter {
+  width: 11rem;
+}
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  margin: 1rem 0;
+}
+.category__name {
+  padding: 1rem 0;
+  border-bottom: rgba(34, 34, 34, 0.2) 1px solid;
+
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.category__name a {
+  font-weight: bold;
+  color: #aaa;
+}
+.category__names {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.category__name .name {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+}
+.open {
+  width: 100%;
+  display: block;
+}
+.clear {
+  flex: none;
+}
