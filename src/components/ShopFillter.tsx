@@ -70,7 +70,10 @@ function ShopFillter() {
         </div>
         {openClose2 ? (
           <div className={openClose2 ? `${styles.open} border` : styles.open}>
-            까꿍
+            <CheckBox category="아우터" />
+            <CheckBox category="신발" />
+            <CheckBox category="상의" />
+            <CheckBox category="하의" />
           </div>
         ) : null}
 
@@ -87,7 +90,10 @@ function ShopFillter() {
         </div>
         {openClose3 ? (
           <div className={openClose3 ? `${styles.open} border` : styles.open}>
-            까꿍
+            <CheckBox category="아우터" />
+            <CheckBox category="신발" />
+            <CheckBox category="상의" />
+            <CheckBox category="하의" />
           </div>
         ) : null}
 
@@ -104,7 +110,10 @@ function ShopFillter() {
         </div>
         {openClose4 ? (
           <div className={openClose4 ? `${styles.open} border` : styles.open}>
-            까꿍
+            <CheckBox category="아우터" />
+            <CheckBox category="신발" />
+            <CheckBox category="상의" />
+            <CheckBox category="하의" />
           </div>
         ) : null}
 
@@ -121,7 +130,10 @@ function ShopFillter() {
         </div>
         {openClose5 ? (
           <div className={openClose5 ? `${styles.open} border` : styles.open}>
-            까꿍
+            <CheckBox category="아우터" />
+            <CheckBox category="신발" />
+            <CheckBox category="상의" />
+            <CheckBox category="하의" />
           </div>
         ) : null}
       </div>

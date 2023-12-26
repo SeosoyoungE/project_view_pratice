@@ -22,7 +22,7 @@ function Header() {
             <NavLink to="/style">STYLE</NavLink>
           </div>
           <div className={styles.header__nav__item}>
-            <NavLink to="/shop">SHOP</NavLink>
+            <NavLink to="/shop/all">SHOP</NavLink>
           </div>
           <div className={styles.header__nav__item}>
             <i className="fa-solid fa-magnifying-glass"></i>
