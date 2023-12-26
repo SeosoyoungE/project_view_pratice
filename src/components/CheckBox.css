@@ -1,5 +1,7 @@
 .checkbox {
-  margin: 0.1rem 0 0.1rem 0.5rem;
+  margin: 0.2rem 0 0.2rem 0.5rem;
+  display: flex;
+  align-items: center;
 }
 .cate__title {
   font-size: 0.9rem;
@@ -13,5 +15,17 @@
 }
 
 .select {
-  background-color: rgba(34, 34, 34, 0.5);
+  position: relative;
+  /* background-color: pink; */
+}
+.select::after {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  font-size: 1.3rem;
+  color: green;
+  font-weight: bold;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
 }
