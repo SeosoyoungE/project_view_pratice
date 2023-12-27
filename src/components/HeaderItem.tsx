@@ -1,5 +1,5 @@
 import style from "./HeaderItem.module.css";
-import { NavLink } from "react-router-dom";
+import { NavLink, Route } from "react-router-dom";
 
 type Props = {
   to: string;
@@ -9,7 +9,9 @@ type Props = {
 function HeaderItem(props: Props) {
   return (
     <div className={style.header_item}>
+      <Route>
       <NavLink to={props.to}>{props.itemName}</NavLink>
+      </Route>
     </div>
   );
 }

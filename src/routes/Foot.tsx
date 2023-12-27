@@ -1,13 +1,15 @@
 import styles from "./Footer.module.css";
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
 
 function Footer() {
   return (
     <footer>
+      <Route>
       <div className={styles.main_footer}>
         <div className={styles.footer__itemBox}>
           <div className={styles.footer__items}>
             <a className={styles.item__title}>이용안내</a>
+            
             <Link className={styles.item} to="/">
               검수기준
             </Link>
@@ -20,6 +22,7 @@ function Footer() {
             <Link className={styles.item} to="/">
               가이드라인
             </Link>
+            
           </div>
           <div className={styles.footer__items}>
             <a className={styles.item__title}>고객지원</a>
@@ -61,6 +64,7 @@ function Footer() {
           <button type="button">문의하기</button>
         </div>
       </div>
+      </Route>
     </footer>
   );
 }

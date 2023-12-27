@@ -5,7 +5,8 @@ import App from "./App";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <BrowserRouter>
+  <BrowserRouter basename={import.meta.env.PUBLIC_URL}>
     <App />
   </BrowserRouter>,
 );
+

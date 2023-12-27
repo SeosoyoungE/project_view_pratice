@@ -14,9 +14,21 @@ body {
   box-sizing: border-box;
   margin: 6.25rem 0 0 0;
 }
+
 .container {
   max-width: 1150px;
   text-align: center;
   vertical-align: middle;
   margin: 0 auto;
+}
+header {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  display: block;
+  padding: 1rem 0 0 0;
 }

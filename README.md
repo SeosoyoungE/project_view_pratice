@@ -1,4 +1,5 @@
-페이지 주소: https://seosoyounge.github.io/tomake_project_view/
+페이지 주소: https://seosoyounge.github.io/tomake_project_view
+ > 상단 헤더를 눌러야 화면이 나옵니다(고치는중) 
 
 
 변경해야할 사항
