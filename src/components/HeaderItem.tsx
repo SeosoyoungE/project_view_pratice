@@ -9,9 +9,7 @@ type Props = {
 function HeaderItem(props: Props) {
   return (
     <div className={style.header_item}>
-      <Route>
       <NavLink to={props.to}>{props.itemName}</NavLink>
-      </Route>
     </div>
   );
 }

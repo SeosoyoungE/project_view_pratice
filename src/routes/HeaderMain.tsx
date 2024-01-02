@@ -4,7 +4,6 @@ import { NavLink, Route } from "react-router-dom";
 function Header() {
   return (
     <>
-    <Route>
       <div className={styles.main_header}>
         <div className={styles.header__logo}>
           <a>LOGO</a>
@@ -29,7 +28,6 @@ function Header() {
           </div>
         </div>
       </div>
-      </Route>
     </>
   );
 }
